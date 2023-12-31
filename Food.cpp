@@ -5,7 +5,7 @@ Food::Food(GameMechs* thisGMRef)
 {
     mainGameMechsRef = thisGMRef;
 
-    //insert 5 food objects into the game board
+    //insert 5 food objects into the game board 
     objPos startPos;
     foodBucket = new objPosArrayList();
     for(int i = 0; i < BUCKET_ITEMS; i++)

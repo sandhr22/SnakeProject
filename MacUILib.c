@@ -1,4 +1,5 @@
 #include "MacUILib.h"
+//SOURCE CODE BY 2SH4 TEAM
 
 print_ptr MacUILib_printf;
 
@@ -13,7 +14,7 @@ print_ptr MacUILib_printf;
 
 	void MacUILib_init_sync(void)
 	{
-		// Nothing different.  Win allows scanf() to be used with conio.h anyways.
+		// Nothing different.  Win allows scanf() to be used with conio.h anyways. 
 		MacUILib_printf = &printf;
 	}
 

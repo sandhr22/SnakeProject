@@ -25,6 +25,7 @@ class Food
         void generateFood(objPosArrayList &blockOff);
 
         void getFoodPos(objPosArrayList &returnPos);
+        
 };
 
 #endif

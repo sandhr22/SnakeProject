@@ -1,10 +1,11 @@
 #include "objPos.h"
+//SOURCE CODE BY 2SH4 TEAM
 
 objPos::objPos()
 {
     x = 0;
     y = 0;
-    symbol = 0; //NULL
+    symbol = 0; //NULL 
 }
 
 objPos::objPos(objPos &o)

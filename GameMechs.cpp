@@ -45,7 +45,7 @@ char GameMechs::getInput()
         this_input = MacUILib_getChar();
     }
 
-    //set input data member to value retrieved from user
+    //set input data member to value retrieved from user 
     setInput(this_input);
     return input;
 }

@@ -153,6 +153,7 @@ void DrawScreen(void)
     MacUILib_printf("\nBoard Size: %dx%d", gamemech->getBoardSizeX(), gamemech->getBoardSizeY());
     MacUILib_printf("\nPlayer Direction: %c", player1->getPlayerDir());
     MacUILib_printf("\nPlayer Postion: %d, %d", BodySeg.x, BodySeg.y);
+    MacUILib_printf("\nWASD Controls and SPACE BAR to exit");
 }
 
 void LoopDelay(void)

@@ -2,7 +2,7 @@
 #define MAC_UI_LIB
 
 	#define WINDOWS
-	//#define POSIX
+	//#define POSIX 
 
 	#include <stdio.h>
 	#include <stdlib.h>	

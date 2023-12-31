@@ -44,7 +44,7 @@ void objPosArrayList::removeHead()
     objPos null_pos;
     aList[0].setObjPos(null_pos);
 
-    //shuffle towards head
+    //shuffle towards head 
     for (int i = 0; i<sizeList;i++){
         aList[i].setObjPos(aList[i+1]);
     }

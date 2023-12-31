@@ -3,7 +3,7 @@
 
 Player::Player(GameMechs* thisGMRef, Food* thisFoodRef)
 {
-    //assign global object pointers from project.cpp to local object pointers 
+    //assign global object pointers from project.cpp to local object pointers
     mainGameMechsRef = thisGMRef;
     foodRef = thisFoodRef;
 
